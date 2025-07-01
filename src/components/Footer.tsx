@@ -25,7 +25,7 @@ const Footer = () => {
                 </div>
               </a>
               <a 
-                href="mailto:info@nambijardines.com" 
+                href="mailto:nambigardensinfo@gmail.com" 
                 className="text-gray-400 hover:text-green-500 transition-colors"
               >
                 <div className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-green-600 transition-colors">
@@ -67,7 +67,7 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <Mail className="h-5 w-5 text-green-500 mt-1" />
                 <div>
-                  <p className="text-white">info@nambijardines.com</p>
+                  <p className="text-white">nambigardensinfo@gmail.com</p>
                   <p className="text-sm text-gray-400">Response within 24 hours</p>
                 </div>
               </div>
