@@ -6,7 +6,7 @@ const Services = () => {
     {
       icon: Home,
       title: "Essential Garden Package",
-      price: "Starting at $250/month",
+      price: "Starting at $350/month",
       description: "Ideal for small residential properties up to 300m². Basic maintenance to keep your garden healthy and beautiful with essential care services.",
       frequency: "Once a Week Service",
       features: [

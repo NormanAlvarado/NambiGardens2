@@ -1,4 +1,3 @@
-import React from 'react';
 import { Leaf, Phone, Mail, MapPin, MessageCircle } from 'lucide-react';
 
 const Footer = () => {
@@ -15,12 +14,20 @@ const Footer = () => {
               Creating sustainable tropical gardens that reflect your vision in the paradise of Guanacaste, Costa Rica.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-green-500 transition-colors">
+              <a 
+                href="https://wa.me/50686802431" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-gray-400 hover:text-green-500 transition-colors"
+              >
                 <div className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-green-600 transition-colors">
                   <MessageCircle className="h-5 w-5" />
                 </div>
               </a>
-              <a href="#" className="text-gray-400 hover:text-green-500 transition-colors">
+              <a 
+                href="mailto:info@nambijardines.com" 
+                className="text-gray-400 hover:text-green-500 transition-colors"
+              >
                 <div className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-green-600 transition-colors">
                   <Mail className="h-5 w-5" />
                 </div>
@@ -31,22 +38,19 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-6">Services</h3>
             <ul className="space-y-3 text-gray-400">
-              <li><a href="#services" className="hover:text-white transition-colors">Garden Design</a></li>
-              <li><a href="#services" className="hover:text-white transition-colors">Garden Maintenance</a></li>
-              <li><a href="#services" className="hover:text-white transition-colors">Irrigation Systems</a></li>
-              <li><a href="#services" className="hover:text-white transition-colors">Villa Landscaping</a></li>
-              <li><a href="#services" className="hover:text-white transition-colors">Native Plant Consulting</a></li>
+              <li><a href="#packages" className="hover:text-white transition-colors">Essential Garden Package</a></li>
+              <li><a href="#packages" className="hover:text-white transition-colors">Premium Villa Package</a></li>
+              <li><a href="#packages" className="hover:text-white transition-colors">VIP Package</a></li>
             </ul>
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold mb-6">Company</h3>
+            <h3 className="text-lg font-semibold mb-6">Navigation</h3>
             <ul className="space-y-3 text-gray-400">
+              <li><a href="#home" className="hover:text-white transition-colors">Home</a></li>
               <li><a href="#about" className="hover:text-white transition-colors">About Us</a></li>
-              <li><a href="#gallery" className="hover:text-white transition-colors">Portfolio</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Testimonials</a></li>
+              <li><a href="#packages" className="hover:text-white transition-colors">Pricing</a></li>
               <li><a href="#contact" className="hover:text-white transition-colors">Contact</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Free Consultation</a></li>
             </ul>
           </div>
 
@@ -56,7 +60,7 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <Phone className="h-5 w-5 text-green-500 mt-1" />
                 <div>
-                  <p className="text-white">+506 8888-8888</p>
+                  <p className="text-white">+506 8680-2431</p>
                   <p className="text-sm text-gray-400">Available 7 days a week</p>
                 </div>
               </div>
